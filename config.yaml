@@ -10,14 +10,14 @@
 # incubator: The Carpentries Incubator
 # Note that you can also use a custom carpentry type. For more info,
 # see the documentation: https://carpentries.github.io/sandpaper-docs/editing.html
-carpentry: 'incubator'
+carpentry: 'l2d'
 
 # Custom carpentry description
 # This will be used as the alt text for the logo
 # carpentry_description: "Custom Carpentry"
 
 # Overall title for pages.
-title: 'Lesson Title'
+title: 'Reinforcement Learning Use Cases for L2D'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: '2024-11-04'
@@ -33,7 +33,7 @@ life_cycle: 'pre-alpha'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://example.com/FIXME-template-source'
+source: 'https://github.com/LearnToDiscover/case-study-reinforcement-learning'
 
 # Default branch of your lesson
 branch: 'main'
@@ -86,5 +86,5 @@ profiles:
 #
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
-
-
+varnish: 'LearnToDiscover/varnish'
+sandpaper: 'LearnToDiscover/sandpaper@l2d'
