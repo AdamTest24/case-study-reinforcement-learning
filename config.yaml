@@ -71,7 +71,9 @@ ipynb: FALSE
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.Rmd
+- introduction-tabular.Rmd
+- introduction-deep.Rmd
+- introduction-bioreactor.Rmd
 
 # Information for Learners
 learners: 

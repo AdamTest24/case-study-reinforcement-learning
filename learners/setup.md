@@ -2,8 +2,10 @@
 title: Setup
 ---
 
-FIXME: Setup instructions live in this document. Please specify the tools and
-the data sets the Learner needs to have installed.
+## Prerequisites
+
+We assume the core courses have been completed, and also familiarity with Python and virtual environments
+
 
 ## Data Sets
 
@@ -12,7 +14,8 @@ FIXME: place any data you want learners to use in `episodes/data` and then use
        a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
        link to it, replacing the example.com link.
 -->
-Download the [data zip file](https://example.com/FIXME) and unzip it to your Desktop
+
+The datasets we will use will be downloaded as part of the notebook.
 
 ## Software Setup
 
@@ -20,35 +23,14 @@ Download the [data zip file](https://example.com/FIXME) and unzip it to your Des
 
 ### Details
 
-Setup for different systems can be presented in dropdown menus via a `solution`
-tag. They will join to this discussion block, so you can give a general overview
-of the software used in this lesson here and fill out the individual operating
-systems (and potentially add more, e.g. online setup) in the solutions blocks.
+Follow the instructions below to create a virtual environment and launch the notebook.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::: solution
 
-### Windows
+### Github Codespaces
 
-Use PuTTY
-
-:::::::::::::::::::::::::
-
-:::::::::::::::: solution
-
-### MacOS
-
-Use Terminal.app
+[GitHub Codespaces overview](https://docs.github.com/en/codespaces/overview)
 
 :::::::::::::::::::::::::
-
-
-:::::::::::::::: solution
-
-### Linux
-
-Use Terminal
-
-:::::::::::::::::::::::::
-
